@@ -9,6 +9,7 @@ import { EmojiModule } from '@ctrl/ngx-emoji-mart/ngx-emoji';
 })
 export class ChatFormComponent implements OnInit {
   message: string = '';
+  displayEmojiPane = false;
 
   constructor(private chat: ChatService) { }
 
@@ -28,6 +29,10 @@ export class ChatFormComponent implements OnInit {
 
   selectEmoji($event) {
     this.message = this.message + $event.emoji.native;
+  }
+
+  updateDisplay() {
+    this.displayEmojiPane = !this.displayEmojiPane;
   }
 
 }

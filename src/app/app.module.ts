@@ -30,17 +30,17 @@ import { AngularMultiSelectModule } from 'angular2-multiselect-dropdown';
 
 
 // Material
-import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatButtonModule} from '@angular/material/button';
-import {MatInputModule} from '@angular/material/input';
-import {MatListModule} from '@angular/material/list';
-import {MatCardModule} from '@angular/material/card';
-import {MatTooltipModule} from '@angular/material/tooltip';
-import {MatIconModule} from '@angular/material/icon';
-import {MatDialogModule} from '@angular/material/dialog';
-import {MatSnackBarModule} from '@angular/material/snack-bar';
-import {MatMenuModule} from '@angular/material/menu';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
+import { MatListModule } from '@angular/material/list';
+import { MatCardModule } from '@angular/material/card';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatIconModule } from '@angular/material/icon';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatMenuModule } from '@angular/material/menu';
 
 import { PickerModule } from '@ctrl/ngx-emoji-mart';
 
