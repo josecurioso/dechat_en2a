@@ -79,3 +79,10 @@
   position: sticky;
   bottom: -0.500em; left: -0.563em;
 }
+
+.full-width {
+  width: 100%;
+  flex-grow: 1;
+  padding: 0 10px;
+  align-self: center;
+}
